@@ -93,7 +93,7 @@ def projectOnEyes(image_src, window_name = "projectOnEyes"):
         output = cv2.add(warped_multiplied, image_multiplied)
         output = output.astype("uint8")
 
-        cv2.imshow("SnapTalk", output)
+        cv2.imshow(window_name, output)
 
         if cv2.waitKey(60) & 0xff == ord('q'):
             break
