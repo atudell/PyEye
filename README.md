@@ -1,7 +1,7 @@
 # PyEye
 
 The purpose of PyEye is to demonstrate the use of the Haar Cascades classifier with the concept of homography to project an image onto the eyes of an individual in a video.
-The result is a SnapChat-style filter and fun application of augmented reality. 
+The result is a SnapChat-style filter and fun application of augmented reality. This code accopmanies my article: https://towardsdatascience.com/creating-a-snapchat-style-filter-with-python-b42ecfd2ff54
 
 Note that whatever image is used must include transparency. Setting transparency on images is available an almost every major photo/image editing software. For demonstration, I included an image of sunglasses with a transparent background.
 
